@@ -1,0 +1,40 @@
+INFO:apscheduler.scheduler Scheduler started
+ERROR:vits-simple-api Uncaught exception
+Traceback (most recent call last):
+  File "D:\work\2023\vits-simple-api\app.py", line 28, in <module>
+    tts = merge_model(app.config["MODEL_LIST"])
+  File "D:\work\2023\vits-simple-api\utils\merge.py", line 109, in merge_model
+    with open(l[1], 'r', encoding='utf-8') as model_config:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\work\\2023\\vits-simple-api/Model/130/config.json'
+INFO:apscheduler.scheduler Scheduler started
+ERROR:vits-simple-api Uncaught exception
+Traceback (most recent call last):
+  File "D:\work\2023\vits-simple-api\app.py", line 28, in <module>
+    tts = merge_model(app.config["MODEL_LIST"])
+  File "D:\work\2023\vits-simple-api\utils\merge.py", line 109, in merge_model
+    with open(l[1], 'r', encoding='utf-8') as model_config:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\work\\2023\\vits-simple-api/Model/130/config.json'
+INFO:apscheduler.scheduler Scheduler started
+ERROR:vits-simple-api Uncaught exception
+Traceback (most recent call last):
+  File "D:\work\2023\vits-simple-api\app.py", line 28, in <module>
+    tts = merge_model(app.config["MODEL_LIST"])
+  File "D:\work\2023\vits-simple-api\utils\merge.py", line 109, in merge_model
+    with open(l[1], 'r', encoding='utf-8') as model_config:
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\work\\2023\\vits-simple-api/Model/130/config.json'
+INFO:apscheduler.scheduler Scheduler started
+INFO:vits-simple-api torch:2.0.1+cpu cuda_available:False
+INFO:vits-simple-api device:cpu device.type:cpu
+INFO:vits-simple-api [VITS] 4 speakers
+INFO:vits-simple-api 4 speakers in total.
+INFO:apscheduler.scheduler Added job "clean_task" to job store "default"
+INFO:werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:23456
+ * Running on http://192.168.3.108:23456
+INFO:werkzeug [33mPress CTRL+C to quit[0m
+INFO:werkzeug 127.0.0.1 - - [12/Sep/2023 12:44:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug 127.0.0.1 - - [12/Sep/2023 12:44:26] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+INFO:werkzeug 127.0.0.1 - - [12/Sep/2023 12:44:26] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+INFO:werkzeug 127.0.0.1 - - [12/Sep/2023 12:44:26] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug 127.0.0.1 - - [12/Sep/2023 12:44:26] "GET /static/js/jquery.slim.min.js HTTP/1.1" 200 -
